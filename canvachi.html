@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>can và chi</title>
+</head>
+<body>
+
+</body>
+<script>
+    let year = prompt('năm');
+    let can = year % 10;
+    let chi = year % 12;
+    let showCan;
+    let showChi;
+
+    switch (can) {
+        case '0' :
+            showCan='canh'
+            break;
+        case 1 :
+            showCan='than'
+            break;
+        case 2 :
+            showCan='nhan'
+            break;
+        case 3 :
+            showCan='qui'
+            break;
+        case 4 :
+            showCan='giap'
+            break;
+        case 5 :
+            showCan = 'at'
+            break;
+        case 6 :
+            showCan = 'binh'
+            break;
+        case 7 :
+            showCan = 'dinh'
+            break;
+        case 8 :
+            showCan = 'mau'
+            break;
+        case 9 :
+            showCan = 'ki'
+            break;
+
+    }
+
+    switch (chi) {
+        case 0 :
+            showChi ='than'
+            break;
+        case 1 :
+           showChi = 'dau'
+            break;
+        case 2 :
+            showChi = 'tuat'
+            break;
+        case 3 :
+            showChi = 'hoi'
+            break;
+        case 4 :
+            showChi = 'ti'
+            break;
+        case 5 :
+            showChi = 'suu'
+            break;
+        case 6 :
+            showChi = 'dan'
+            break;
+        case 7 :
+            showChi = 'mao'
+            break;
+        case 8 :
+            showChi = 'thin'
+            break;
+        case 9 :
+            showChi = 'ti'
+            break;
+        case 10 :
+            showChi = 'ngo'
+            break;
+
+
+    }
+    document.write('năm sinh cua ban la:' +showCan+showChi );
+</script>
+
+</html>
